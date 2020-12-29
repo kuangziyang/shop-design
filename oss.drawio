@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T08:36:25.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="l4hBIP7quEE_q78BzdqH" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T09:07:19.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="rjDQegawcYgXk44VvIF5" version="13.10.9" type="github">
   <diagram id="QsddFDMn2Zlp8uKH3iGx" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,34 +16,40 @@
             <mxPoint x="37" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-1" target="3eQlmOhi_dcADmkOUI_m-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;第三方&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-2" target="3eQlmOhi_dcADmkOUI_m-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3eQlmOhi_dcADmkOUI_m-7" value="接口返回包含OSS资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3eQlmOhi_dcADmkOUI_m-6">
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-7" value="接口返回包含OSS资源&lt;br&gt;（由佣金宝转义为带签名的OSS资源链接）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3eQlmOhi_dcADmkOUI_m-6">
           <mxGeometry x="0.1667" y="1" relative="1" as="geometry">
-            <mxPoint y="11.5" as="offset" />
+            <mxPoint x="10" y="31.5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-2" target="3eQlmOhi_dcADmkOUI_m-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3eQlmOhi_dcADmkOUI_m-15" value="接口返回包含OSS资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3eQlmOhi_dcADmkOUI_m-14">
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-15" value="接口返回包含OSS资源&lt;br&gt;（由后端转义为带签名的OSS资源链接）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3eQlmOhi_dcADmkOUI_m-14">
           <mxGeometry x="-0.2538" relative="1" as="geometry">
-            <mxPoint x="23" y="12.5" as="offset" />
+            <mxPoint x="33" y="32.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3eQlmOhi_dcADmkOUI_m-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;薪宝&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="280" width="110" height="50" as="geometry" />
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-2" target="3eQlmOhi_dcADmkOUI_m-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;薪宝后端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3eQlmOhi_dcADmkOUI_m-8" value="请求接口带OSS资源时，由佣金返回带永久时效的OSS资源链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-8" value="请求接口带OSS资源时，由佣金宝组装返回带永久时效的OSS资源链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-10" target="3eQlmOhi_dcADmkOUI_m-2">
@@ -54,17 +60,47 @@
             <mxPoint x="61" y="-14.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3eQlmOhi_dcADmkOUI_m-10" value="&lt;span style=&quot;font-size: 14px&quot;&gt;新宝前端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="280" width="110" height="50" as="geometry" />
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-10" target="3eQlmOhi_dcADmkOUI_m-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3eQlmOhi_dcADmkOUI_m-16" value="请求接口带OSS资源时，由佣金返回带时效的OSS资源链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="190" height="60" as="geometry" />
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-10" target="3eQlmOhi_dcADmkOUI_m-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-10" value="&lt;span style=&quot;font-size: 14px&quot;&gt;薪宝前端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-16" value="请求接口带OSS资源时，由佣金宝组装返回带时效的OSS资源链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="320" as="targetPoint" />
             <mxPoint x="740" y="160" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;OSS&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-24" target="3eQlmOhi_dcADmkOUI_m-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-24" value="&lt;font style=&quot;font-size: 14px&quot;&gt;CDN&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-26" value="&amp;nbsp;访问资源（已存在的数据）/ 访问资源（带签名，永久时效）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="590" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-27" value="访问资源（带签名，有时效）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="590" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-30" value="通过AK上传资源到新Bucket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="440" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-30" target="3eQlmOhi_dcADmkOUI_m-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-33" value="通过AK上传资源到新Bucket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
