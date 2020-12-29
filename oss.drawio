@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T09:07:19.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="rjDQegawcYgXk44VvIF5" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T09:46:28.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="ogAEXyI7OCNKQB6aBp8U" version="13.10.9" type="github">
   <diagram id="QsddFDMn2Zlp8uKH3iGx" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-2" target="3eQlmOhi_dcADmkOUI_m-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3eQlmOhi_dcADmkOUI_m-2" target="3eQlmOhi_dcADmkOUI_m-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;薪宝后端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -101,6 +104,12 @@
         </mxCell>
         <mxCell id="3eQlmOhi_dcADmkOUI_m-33" value="通过AK上传资源到新Bucket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-34" value="&lt;span style=&quot;font-size: 14px&quot;&gt;DB&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3eQlmOhi_dcADmkOUI_m-36" value="保存OSS普通链接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="170" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
