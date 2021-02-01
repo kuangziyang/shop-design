@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T07:12:34.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="14.2.7" etag="NSPfUEN-Edkb3lAj_hYp" type="github"><diagram id="VvqAFld6kcSRDZWVkb-_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-01T09:00:59.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="mwyL-f34HbXe48QwqQBr" version="14.2.7" type="github">
+  <diagram id="VvqAFld6kcSRDZWVkb-_" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-2" value="子钱包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-6" value="充值100W" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwSdajE1iPS6r4egMdJ5-3" target="OwSdajE1iPS6r4egMdJ5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-3" value="客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="14" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwSdajE1iPS6r4egMdJ5-4" target="OwSdajE1iPS6r4egMdJ5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-14" value="回调: &lt;br&gt;subBankAccount、amount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OwSdajE1iPS6r4egMdJ5-13">
+          <mxGeometry x="-0.3263" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-4" value="银行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwSdajE1iPS6r4egMdJ5-5" target="OwSdajE1iPS6r4egMdJ5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-18" value="充值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=none;" vertex="1" connectable="0" parent="OwSdajE1iPS6r4egMdJ5-15">
+          <mxGeometry x="-0.1875" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-5" value="佣金宝" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-9" value="打钱到子账户" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;size=13;" vertex="1" parent="1">
+          <mxGeometry x="24" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-12" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OwSdajE1iPS6r4egMdJ5-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="144" y="370" as="sourcePoint" />
+            <mxPoint x="154" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-17" value="根据子账户找到项目、支付渠道，&lt;br&gt;从而找到钱包，增加对应钱包的余额" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;size=13;" vertex="1" parent="1">
+          <mxGeometry x="554" y="60" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-19" value="" style="endArrow=none;dashed=1;html=1;fontColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OwSdajE1iPS6r4egMdJ5-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544" y="250" as="sourcePoint" />
+            <mxPoint x="614" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwSdajE1iPS6r4egMdJ5-20" value="余额增加" style="curved=1;endArrow=classic;html=1;fontColor=none;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwSdajE1iPS6r4egMdJ5-2" target="OwSdajE1iPS6r4egMdJ5-2">
+          <mxGeometry x="0.4653" y="-18" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="744" y="270" as="sourcePoint" />
+            <mxPoint x="744" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="814" y="280" />
+              <mxPoint x="764" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
