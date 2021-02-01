@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T06:52:14.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="JWejjVMz9_-QMSTKP9sF" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T07:01:50.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="TS9_U7DuoysY1-3UU-wr" version="14.2.7" type="github">
   <diagram id="DwcgkpBsZSUWMjSM1Ywg" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,13 +19,13 @@
         <mxCell id="JCBZ60t_oc3F8IK1baCP-2" value="company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JCBZ60t_oc3F8IK1baCP-3" value="bankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JCBZ60t_oc3F8IK1baCP-3" value="BankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="379" y="150" width="81" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JCBZ60t_oc3F8IK1baCP-8" value="subBankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JCBZ60t_oc3F8IK1baCP-8" value="SubBankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="349.5" y="275" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JCBZ60t_oc3F8IK1baCP-11" value="subWallet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JCBZ60t_oc3F8IK1baCP-11" value="SubWallet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="349.5" y="360" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
